@@ -1,4 +1,6 @@
-﻿opencv-python
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+opencv-python
 opencv-contrib-python
 numpy
 matplotlib
@@ -6,11 +8,16 @@ pandas
 scikit-learn
 scikit-image
 albumentations
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 tensorflow
 tensorboard
 tqdm
 pyyaml
-onnx onnxruntime
-gcsfs google-cloud-storage
+onnx
+onnxruntime
+gcsfs
+google-cloud-storage
 roboflow
+
+torch
+torchvision
+torchaudio
